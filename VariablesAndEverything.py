@@ -52,3 +52,10 @@ This is a type of data structure where the values are referenced with a key (#Ha
 Write a script to ask user name , year of birth and address 
 take the above user input and put in it in a dict {name:value,age:value,address:value}
 """
+name = input("Enter the name : ")
+yob = int(input("Enter the year of birth : "))
+address = input("Enter the address : ")
+
+user_details = {'Name': name, 'age': 2021 - yob, 'address': address
+                }
+print(user_details)
