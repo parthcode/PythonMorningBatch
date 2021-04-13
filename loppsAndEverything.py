@@ -12,6 +12,10 @@ fibonacci series
 1,2,3,5,8.....
 ask user the range of the series and print the above series
 """
-for i in range(10):
-    if i % 2 == 0:
-        print(i)
+start = 0
+end = 1
+for i in range(8):
+    result = start + end
+    print(result)
+    start = end
+    end = result
