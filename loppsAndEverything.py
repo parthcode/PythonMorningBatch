@@ -41,5 +41,7 @@ dic_values = {}
 # Fill the above dict with the keys from the list and relevant square as values
 # example : {2:4, 3:9, 4:16...}
 
-str_value = 'AbcaBc'
+str_value = 'aABbc'
 # convert all the cap letter to small letter
+# hacker rank
+print(str_value.islower())
